@@ -138,17 +138,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF90036528D450AC002CA5C7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BF90035D28D445CC002CA5C7 /* CategoryHome.swift */,
+				BF90035F28D44771002CA5C7 /* CategoryRow.swift */,
+				BF90036128D448AA002CA5C7 /* CategoryItem.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		BF9C213C28D15F0A0037A08F /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				BF5430E628D0373F00C43338 /* ContentView.swift */,
+				BF34BDA228D303F000F9236A /* Badges */,
+				BF90036528D450AC002CA5C7 /* Category */,
+				BF9C215C28D1AA450037A08F /* Helpers */,
 				BF34BDA728D3319100F9236A /* Hikes */,
 				BF9C215B28D1AA340037A08F /* Landmarks */,
-				BF34BDA228D303F000F9236A /* Badges */,
-				BF9C215C28D1AA450037A08F /* Helpers */,
-				BF90035D28D445CC002CA5C7 /* CategoryHome.swift */,
-				BF90035F28D44771002CA5C7 /* CategoryRow.swift */,
-				BF90036128D448AA002CA5C7 /* CategoryItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
