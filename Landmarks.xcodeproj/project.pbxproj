@@ -159,6 +159,16 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		BF90037028D48178002CA5C7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BF90036828D451DA002CA5C7 /* ProfileHost.swift */,
+				BF90036E28D47B78002CA5C7 /* ProfileEditor.swift */,
+				BF90036A28D45232002CA5C7 /* ProfileSummary.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		BF9C213C28D15F0A0037A08F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,9 +178,7 @@
 				BF9C215C28D1AA450037A08F /* Helpers */,
 				BF34BDA728D3319100F9236A /* Hikes */,
 				BF9C215B28D1AA340037A08F /* Landmarks */,
-				BF90036828D451DA002CA5C7 /* ProfileHost.swift */,
-				BF90036E28D47B78002CA5C7 /* ProfileEditor.swift */,
-				BF90036A28D45232002CA5C7 /* ProfileSummary.swift */,
+				BF90037028D48178002CA5C7 /* Profile */,
 			);
 			path = Views;
 			sourceTree = "<group>";
